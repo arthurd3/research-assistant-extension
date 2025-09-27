@@ -23,5 +23,8 @@
   "host_permissions": [
     "http://localhost:8080/*",
     "<all_urls>"
-  ]
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self' "
+  }
 }
